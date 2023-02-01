@@ -19,8 +19,8 @@
             <a href="index.html" class="logo">
                 <img src="images/logo.png" alt="" class="logo__icon">
             </a>
-            <nav class="menu">
-                <ul class="menu__list">
+            <nav class="menu header__menu">
+                <ul class="menu__list header-menu__list">
                     <li class="menu__item">
                         <a href="index.html" class="menu__link">Главная</a>
                     </li>
@@ -31,18 +31,23 @@
                         <a href="#" class="menu__link">CO2DISPENSER</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">О нас</a>
+                        <a href="#about" class="menu__link">О нас</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">FAQ</a>
+                        <a href="#questions" class="menu__link">FAQ</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">Контакты</a>
+                        <a href="#contacts" class="menu__link">Контакты</a>
                     </li>
                 </ul>
             </nav>
             <div class="number">
                 <a href="tel:+79265450028" class="number__phone">+7-926-545-00-28</a>
+            </div>
+            <div class="burger">
+                <div class="burger__line first__line"></div>
+                <div class="burger__line second__line"></div>
+                <div class="burger__line third__line"></div>
             </div>
         </div>
     </header>
@@ -150,7 +155,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about__left">
                     <div class="about__green-block">
@@ -161,17 +166,21 @@
                     <h2 class="title">О нас</h2>
                     <div class="about__text">Мы команда ROCKET FOR PLANTS и мы стремимся предоставить нашим клиентам максимально качественные и эффективные удобрения</div>
                     <div class="about__down">
-                        <div class="about__down-up">
-                            <p class="about__down-up-text"><span>с</span> 2021</p>
-                            <p class="about__down-up-text"><span>Более</span> 1000</p>
-                            <p class="about__down-up-text">80</p>
-                            <p class="about__down-up-text">20</p>
+                        <div class="about__down-block">
+                            <p class="down__block-title"><span>с</span> 2021<</p>
+                            <span class="down__block-text">года на рынке</span>
                         </div>
-                        <div class="about__down-down">
-                            <p class="about__down-down-text">года на рынке</p>
-                            <p class="about__down-down-text">довольных клиентов</p>
-                            <p class="about__down-down-text">партнёров</p>
-                            <p class="about__down-down-text">сотрудников</p>
+                        <div class="about__down-block">
+                            <p class="down__block-title"><span>Более</span> 1000</p>
+                            <span class="down__block-text">довольных клиентов</span>
+                        </div>
+                        <div class="about__down-block">
+                            <p class="down__block-title">80</p>
+                            <span class="down__block-text">партнёров</span>
+                        </div>
+                        <div class="about__down-block">
+                            <p class="down__block-title">20</p>
+                            <span class="down__block-text">сотрудников</span>
                         </div>
                     </div>
                 </div>
@@ -197,7 +206,7 @@
                 </div>
             </div>
         </section>
-        <section class="questions">
+        <section class="questions" id="questions">
             <div class="container">
                 <h2 class="title">Часто задаваемые вопросы</h2>
                     <div class="question__title">Где лучше разместить генераторы RFP?
@@ -215,7 +224,7 @@
 
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
                 <div class="left__contacts">
                     <h2 class="title">Наши контакты:</h2>
@@ -231,18 +240,18 @@
                     </div>
                 </div>
                 <div class="right__contacts">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577325.3463670196!2d36.82514088019102!3d55.58152448288451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1675243949404!5m2!1sru!2sru" width="660" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577325.3463670196!2d36.82514088019102!3d55.58152448288451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCw!5e0!3m2!1sru!2sru!4v1675243949404!5m2!1sru!2sru"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <a href="index.html" class="logo">
+            <a href="index.html" class="logo footer__logo">
                 <img src="images/logo.png" alt="" class="logo__icon">
             </a>
-            <nav class="menu">
-                <ul class="menu__list">
+            <nav class="menu footer__menu">
+                <ul class="menu__list footer-menu__list">
                     <li class="menu__item">
                         <a href="index.html" class="menu__link">Главная</a>
                     </li>
@@ -253,13 +262,13 @@
                         <a href="#" class="menu__link">CO2DISPENSER</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">О нас</a>
+                        <a href="#about" class="menu__link">О нас</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">FAQ</a>
+                        <a href="#questions" class="menu__link">FAQ</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="menu__link">Контакты</a>
+                        <a href="#contacts" class="menu__link">Контакты</a>
                     </li>
                 </ul>
             </nav>
